@@ -1,34 +1,30 @@
-h1 {
-    color: black;
+h2 {
+    color: rgb(14, 13, 13);
     border-style: solid, grey;
 }
 
 
 
 li {
-    color: rgb(186, 161, 209);
+    color: rgb(223, 221, 221);
     border-style: solid;
+    border-radius: 15px;
+    background: rgb(250, 249, 249);
+    padding: 16px;
     margin: 1rem;
-    padding: 1rem;
-}
-
-.form-header div {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: $card-bg;
-    background-clip: border-box;
-    border: $card-border-width solid $card-border-color;
-
 
 }
 
-button.btn-close {
-    color: red;
+div {
+    color: blueviolet;
 }
 
-#task1 .btn-close {
-    color: red;
+ul {
+    margin-right: 6rem;
+    margin-left: 4rem;
+    list-style-type: none;
+}
+
+#card-btn {
+    text-align: center;
 }
